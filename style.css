@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --maincolor:#458ff6;
+}
+
+body{
+    background-color: white;
+    /* overflow-x: hidden; */
+    font-family: 'Mulish', sans-serif;
+}
+img{
+    -webkit-user-drag: none;
+     user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+.logo{
+    width:40px; 
+    height:40px; 
+    border-radius:50%;
+    background:var(--maincolor);
+    color: aliceblue;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-topic{
+    height:40px; 
+    color: #8f8a9a;
+    margin: 5px;
+    padding: 2px;
+}
+.btn-custom1{
+    height:40px;
+    border-radius: 20px;
+    background-color: var(--maincolor);
+    color: aliceblue;
+}
+.btn-custom1:hover{
+    background-color: #458ff6;
+    color: rgb(255, 255, 255);
+}
+.background-svg1{
+    position: absolute;
+    width: 600px;
+    margin-top: 10px;
+    z-index: 1;
+}
+.background-svg2{
+    position: absolute;
+    width: 400px;
+    margin-top: -40px ;
+    z-index: 1;
+}
+.box1{
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+}
+.btn-custom2{
+    height:40px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 1px solid var(--maincolor);
+    color: var(--maincolor);
+}
+.btn-custom2:hover{
+    background-color: #458ff6;
+    color: rgb(255, 255, 255);
+}
+
+.box2{
+    width: 300px;
+    height: 400px;
+    padding: 0;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.alert{
+    color: white;
+    font-size: 40px;
+    background-color: grey;
+    top: 0;
+    z-index: 30;
+    padding-left: 30%;
+}
+.alert .fa-solid{
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    font-size: 30px;
+}
+.alert a{
+    font-weight: 900;
+    font-size: 17px;
+    color: aliceblue;
+}
+.alert a:hover{
+    text-shadow: 0 0 2px #000000;
+}
