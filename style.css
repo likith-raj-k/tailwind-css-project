@@ -89,7 +89,7 @@ img{
 .alert{
     color: white;
     font-size: 40px;
-    background-color: grey;
+    background-color: rgb(3, 83, 136);
     top: 0;
     z-index: 30;
     padding-left: 30%;
